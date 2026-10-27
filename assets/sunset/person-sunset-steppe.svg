@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-labelledby="t2">
+  <title id="t2">Человек сидит на холме в степи и смотрит на закат над мавзолеем</title>
+  <defs>
+    <linearGradient id="sky2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#13203a"/>
+      <stop offset="0.35" stop-color="#3a3466"/>
+      <stop offset="0.58" stop-color="#9c4d6a"/>
+      <stop offset="0.74" stop-color="#e2814f"/>
+      <stop offset="0.8" stop-color="#f7b865"/>
+    </linearGradient>
+    <radialGradient id="glow2" cx="1180" cy="700" r="560" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffe7a8" stop-opacity="0.9"/>
+      <stop offset="0.3" stop-color="#ffb066" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#ff8a4c" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#sky2)"/>
+  <rect width="1600" height="900" fill="url(#glow2)"/>
+  <!-- первые звёзды -->
+  <g fill="#efe2c8">
+    <circle cx="180" cy="90" r="2"/><circle cx="420" cy="150" r="1.5"/><circle cx="640" cy="70" r="1.8"/>
+    <circle cx="300" cy="230" r="1.2"/><circle cx="900" cy="110" r="1.4"/><circle cx="1380" cy="80" r="1.8"/>
+    <circle cx="1500" cy="190" r="1.2"/><circle cx="80" cy="300" r="1.4"/>
+  </g>
+  <!-- солнце садится за горизонт -->
+  <circle cx="1180" cy="712" r="110" fill="#ffe2a0"/>
+  <g fill="#e98a52" opacity="0.7">
+    <rect x="960" y="600" width="460" height="7" rx="3.5"/>
+    <rect x="1040" y="628" width="300" height="5" rx="2.5"/>
+  </g>
+  <!-- горизонт -->
+  <rect y="712" width="1600" height="188" fill="#4a2443"/>
+  <!-- силуэт мавзолея вдали: портал, барабаны и купола -->
+  <g fill="#3a1d3c" transform="translate(780 712)">
+    <rect x="-150" y="-62" width="300" height="62"/>
+    <rect x="-150" y="-80" width="56" height="80"/>
+    <rect x="-66" y="-112" width="74" height="112"/>
+    <path d="M-50 0 V-70 a 13 16 0 0 1 26 0 V0 Z" fill="#6b2f4d"/>
+    <rect x="-70" y="-116" width="82" height="6"/>
+    <rect x="58" y="-88" width="38" height="16"/>
+    <path d="M52 -72 Q 52 -126 77 -138 Q 102 -126 102 -72 Z"/>
+    <rect x="76" y="-150" width="2" height="14"/>
+    <rect x="-1" y="-74" width="34" height="12"/>
+    <path d="M-2 -62 Q 0 -98 16 -104 Q 32 -98 34 -62 Z"/>
+    <rect x="-176" y="-40" width="18" height="40"/>
+    <path d="M-180 -40 Q -167 -58 -154 -40 Z"/>
+  </g>
+  <!-- дюна на переднем плане -->
+  <path d="M0 900 V 760 C 160 740 300 742 420 770 C 560 802 760 820 980 836 C 1200 852 1420 860 1600 858 V 900 Z" fill="#1d1028"/>
+  <path d="M0 900 V 840 C 300 820 700 860 1100 880 C 1300 890 1500 888 1600 886 V 900 Z" fill="#150b1e"/>
+  <!-- человек сидит, обняв колени, смотрит вправо -->
+  <g transform="translate(330 752)" stroke="#1d1028" fill="#1d1028" stroke-linecap="round" stroke-linejoin="round">
+    <line x1="0" y1="-6" x2="10" y2="-74" stroke-width="36"/>
+    <line x1="0" y1="-8" x2="50" y2="-44" stroke-width="20"/>
+    <line x1="50" y1="-44" x2="62" y2="2" stroke-width="16"/>
+    <line x1="62" y1="2" x2="76" y2="4" stroke-width="12"/>
+    <line x1="14" y1="-66" x2="48" y2="-48" stroke-width="11"/>
+    <line x1="14" y1="-80" x2="20" y2="-92" stroke-width="12"/>
+    <circle cx="24" cy="-104" r="16" stroke="none"/>
+  </g>
+  <!-- ковыль -->
+  <g stroke="#1d1028" stroke-width="2.5" stroke-linecap="round" fill="none">
+    <path d="M120 752 q -8 -30 -22 -44 M128 750 q 2 -32 -6 -52 M136 752 q 10 -26 4 -46"/>
+    <path d="M520 788 q -6 -26 -18 -38 M528 790 q 4 -28 -2 -44 M536 792 q 10 -22 6 -40"/>
+    <path d="M640 800 q -4 -18 -14 -28 M646 801 q 4 -20 0 -32"/>
+  </g>
+  <!-- птицы -->
+  <g stroke="#2a1530" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <path d="M1000 420 q 12 -10 22 0 q 10 -10 22 0"/>
+    <path d="M1070 390 q 8 -7 16 0 q 8 -7 16 0"/>
+  </g>
+</svg>
